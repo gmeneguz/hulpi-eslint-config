@@ -1,4 +1,7 @@
-# Rocketseat ESLint config
+# Hulpi ESLint config
+ESLint configuration based on Rocketseat
+https://github.com/Rocketseat/eslint-config-rocketseat
+
 
 ## Whats included?
 
@@ -12,14 +15,14 @@
 
 1. Install the dependencies
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @hulpi/eslint-config
 ```
 
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@rocketseat/eslint-config/react"
-  // "extends": "@rocketseat/eslint-config/node"
+  "extends": "@hulpi/eslint-config/react"
+  // "extends": "@hulpi/eslint-config/node"
 }
 ```
 
